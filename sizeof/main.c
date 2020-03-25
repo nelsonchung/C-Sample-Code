@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
     printf("The length of buf_1 is %d\n", buf_length);
 
     char buf_2[10] = {0};
-    buf_length = sizeof(buf_1);
+    buf_length = sizeof(buf_2);
     printf("The length of buf_2 is %d\n", buf_length);
 
     buf_length = sizeof(char);
